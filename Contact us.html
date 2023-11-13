@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css" >
+    <link href="../MATHSANDSCIENCE TUTORING/CSS Folder/Contactus.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+   
+    <nav class="navbar">
+        <div class="navbar__container"><a href="../MATHSANDSCIENCE TUTORING/Home.html" id="navbar__logo"><i class="fa-solid fa-book-open-reader"></i> MATHSANDSCIENCETUTORING</a>
+        </div>
+
+        <p class="media-links">
+            <a href="../MATHSANDSCIENCE TUTORING/Home.html" >Home</a>
+            <a href="../MATHSANDSCIENCE TUTORING/About.html" >About</a>
+            <a href="../MATHSANDSCIENCE TUTORING/Home.html">Packages</a>
+            <a href="../MATHSANDSCIENCE TUTORING/Contact us.html" >Contact</a>
+         </p>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="../MATHSANDSCIENCE TUTORING/About.html" class="navbar__links">About</a>
+            </li>
+            <li class="navbar__item">
+                <a href="../MATHSANDSCIENCE TUTORING/Home.html" class="navbar__links">Packages</a>
+            </li>
+            <li class="navbar__item">
+                <a href="../MATHSANDSCIENCE TUTORING/Contact us.html" class="navbar__links">Contact </a>
+            </li>
+            <li class="navbar__btn">
+                <a href="../MATHSANDSCIENCE TUTORING/Home.html" class="button">Become a Tutor</a>
+            </li>
+        </ul>
+    
+
+    </nav>
+
+</div>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Call us on: +27 61 434 2072 / +27 66 088 3456 <br>
+                Or leave us a message below.</p>
+
+
+        </div>
+        <div class="container">
+        <div class="contactlnfo">
+            <div class="box">
+          
+                <div class="icon"><i class="bi bi-geo-alt-fill"></i></div>
+                <div class="text">
+                 <h3>Address</h3>
+                 <p>mahube ext3 mamelodi 0122 Pretoria </p>
+                </div>
+            </div>     
+             <div class="box">
+                <div class="icon"><i class="bi bi-telephone-fill"></i></div>
+                <div class="text">
+                 <h3>Phone</h3>
+                 <p>+27 66 088 3456 </p>
+            </div>
+            </div>
+        <div class="box">
+            <div class="icon"><i class="bi bi-envelope-at-fill"></i></div>
+            <div class="text">
+             <h3>Email</h3>
+             <p><a href="mailto:snkosinathi676@gmail.com">snkosinathi676@gmail.com</a></p>
+       
+        </div>
+    
+    </div>
+        </div>
+          
+    <div class="contactform">
+    <forms onsubmit="sendEmail(); reset(); return false;">
+        <h2>Send Message</h2>
+        <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Full Name</span>
+        </div>
+        <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Email</span>
+        </div>
+        <div class="inputBox">
+            <textarea required="required"></textarea>
+            <span>Type your Message...</span>
+        </div>
+        <div class="inputBox">
+            <input type="submit" name="" value="Send">
+            
+        </div>   
+    </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+    <script>
+        function sendEmail() {
+            Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+        }
+    </script>
+</section>
+
+</body>
+<!--footer-->
+
+  <footer class="footer-distributed">
+    <div class="footer-left">
+        <h4>MATHSAND<span>SCIENCE</span></h4>
+        <p class="footer-links">
+           <a href="../MATHSANDSCIENCE TUTORING/Home.html" >Home</a>
+           <a href="../MATHSANDSCIENCE TUTORING/About.html" >About</a>
+           <a href="#packages " >Packages</a>
+           <a href="../MATHSANDSCIENCE TUTORING/Contact us.html" >Contact</a>
+        </p>
+
+        <p class="footer-company-name"> Copyright &copy; 2023 <strong> MATHSANDSCIENCE </strong> All rights reserved</p>
+        </div>
+        <div class="footer-center">
+            <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <p><span>mahube ext3 mamelodi 0122 Pretoria</span></p>
+        </div>
+        <div><i class="fa-solid fa-phone"></i>
+        <p>+27 66 088 3456</p>
+    </div>
+    <div><i class="fa-solid fa-envelope"></i>
+     <p><a href="mailto:snkosinathi676@gmail.com"> snkosinathi676@gmail.com
+    </a>
+    
+ </p> 
+    </div>
+   <div class="footer-right">
+    <p class="footer-company-about">
+       <span><b>About Our Company</b> </span>
+       MATHSANDSCIENCETUTORING<br> We are dedicated to make it fun.<br>
+             With us you are guaranteed a distinction in no time.</p>
+
+    </div>
+<div class="footer-icons">
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+
+</div>
+
+ </footer>
+</body>
+
+</html>
+
+
+
+
+
