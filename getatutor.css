@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;  
+    margin: 0;
+    padding: 0;  
+}
+
+/* Style the form container */
+form {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style form input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #f2b62b;
+}
+
+/* Add some spacing between elements */
+br {
+    line-height: 15px;
+}
+ h1{
+    text-align: center;
+    font-weight: 1000;
+    color: #f2b62b;
+    font-size: 3em;
+ }
+ 
